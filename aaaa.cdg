@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="aaaa">
+  <ClassDiagramComponents>
+    <Class name="UntitledClass" package="" visibility="public" xPosition="346.0" yPosition="346.0">
+      <Fields>
+        <Field name="Numero" type="int" visibility="public"/>
+        <Field name="NomeAgencia" type="String" visibility="public"/>
+        <Field name="Banco" type="String" visibility="public"/>
+        <Field name="TipoConta" type="String" visibility="public"/>
+        <Field name="Saldo" type="float" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="abrir" returnType="void" visibility="public"/>
+        <Method name="encerrar" returnType="void" visibility="public"/>
+        <Method name="consultar" returnType="void" visibility="public"/>
+        <Method name="saldo" returnType="void" visibility="public"/>
+        <Method name="creditar" returnType="void" visibility="public"/>
+        <Method name="debitar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
