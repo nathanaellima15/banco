@@ -8,8 +8,16 @@ public class Contab {
     private int NumAgencia;
     private int NumBanco;
 
-    public void abrir( Numero, NomeAgencia, Banco, TipoConta, Saldo, NumAgencia, NumBanco) {
-    
+    public void abrir( int Numero,String NomeAgencia, String Banco, String TipoConta, 
+            int Saldo, int NumAgencia, int NumBanco) {
+        this.Numero = Numero;
+        this.NomeAgencia = NomeAgencia;
+        this.Banco = Banco;
+        this.TipoConta = TipoConta;
+        this.Saldo = Saldo;
+        this.NumAgencia = NumAgencia;
+        this.NumBanco = NumBanco;
+        
     }
     public void encerrar(Numero, NomeAgencia, Banco, TipoConta, NumAgencia, NumBanco) {
     
