@@ -2,17 +2,17 @@
 
 <ClassDiagram name="aaaa">
   <ClassDiagramComponents>
-    <Class name="UntitledClass" package="" visibility="public" xPosition="346.0" yPosition="346.0">
+    <Class name="UntitledClass" package="" visibility="public" xPosition="388.0" yPosition="135.0">
       <Fields>
         <Field name="Numero" type="int" visibility="public"/>
         <Field name="NomeAgencia" type="String" visibility="public"/>
         <Field name="Banco" type="String" visibility="public"/>
         <Field name="TipoConta" type="String" visibility="public"/>
         <Field name="Saldo" type="float" visibility="public"/>
+        <Field name="NumAgencia" type="int" visibility="public"/>
+        <Field name="NumBanco" type="int" visibility="public"/>
       </Fields>
-      <Constructors>
-        <Constructor visibility="public"/>
-      </Constructors>
+      <Constructors/>
       <Methods>
         <Method name="abrir" returnType="void" visibility="public"/>
         <Method name="encerrar" returnType="void" visibility="public"/>
